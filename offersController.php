@@ -27,8 +27,8 @@ class getOffersController {
 
        return $this->responseHandler($response); // call function that checking the response ,and return array of offers .
 
-        // }else{
-        //     return false ; 
+        }else{
+            return false ; 
         }
     }
 
